@@ -8,7 +8,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingFeed, setIsLoadingFeed] = useState(true);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
-  const [imageUrls, setImageUrls] = useState<any[]>([]);
+  const [imageUrls, setImageUrls] =  useState<string[]>([]);
 
   useEffect(() => {
     fetchImages();

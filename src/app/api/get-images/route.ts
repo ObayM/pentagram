@@ -1,6 +1,6 @@
 import { list } from '@vercel/blob';
  
-export async function GET(request: Request) {
+export async function GET() {
   const { blobs } = await list();
   return Response.json(blobs);
 }
