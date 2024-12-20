@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { IoSparkles, IoImage, IoHeart, IoShareSocial, IoBookmark } from "react-icons/io5";
+import { IoSparkles, IoHeart, IoShareSocial, IoBookmark } from "react-icons/io5";
 
 export default function Home() {
   const [inputText, setInputText] = useState("");
